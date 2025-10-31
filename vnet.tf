@@ -4,18 +4,9 @@ resource "azurerm_virtual_network" "vnet" {
     resource_group_name = azurerm_resource_group.rg.name
     location = azurerm_resource_group.rg.location
 
-<<<<<<< HEAD
+
    tags = {
     name = "vcube"
-}
-} 
-=======
-<<<<<<< HEAD
-   tags = {
-    name = "krishna"
-=======
-    
->>>>>>> 905809e6eabc0dd1863f49ac4060d312076fd14f
 }
 }
 
