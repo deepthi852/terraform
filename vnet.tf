@@ -4,8 +4,10 @@ resource "azurerm_virtual_network" "vnet" {
     resource_group_name = azurerm_resource_group.rg.name
     location = azurerm_resource_group.rg.location
 
-    
+   tags = {
+    name = "vcube"
 }
+} 
 
 resource azurerm_subnet "subnet" {
     address_prefixes = ["172.16.1.0/24"]
