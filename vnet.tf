@@ -8,8 +8,14 @@ resource "azurerm_virtual_network" "vnet" {
    tags = {
     name = "vcube"
 }
+<<<<<<< HEAD
 } 
    
+=======
+}
+
+>>>>>>> 10af2cadb579f4656bd4c0d780f8ef121a7c7c3e
+>>>>>>> 2a7b14e48df8cc152a40346920aa8cdc7b98968b
 
 resource azurerm_subnet "subnet" {
     address_prefixes = ["172.16.1.0/24"]
